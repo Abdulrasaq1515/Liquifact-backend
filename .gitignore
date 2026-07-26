@@ -128,8 +128,6 @@ test-output.txt
 test_output.txt
 
 # Environment (never commit secrets)
-.env
-.env.*
 !.env.example
 
 # Local SQLite database
@@ -146,3 +144,4 @@ tests/load/reports/
 fix-invoice.js
 parse-ast.js
 contracts/target/
+config.bat
